@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0.5rem;
+    margin-right: 5rem;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar li a:hover {
+    color: #4292aa;
+}
+
+footer {
+    bottom: 0;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    height: 40px;
+    background: #333;
+    color: white;
+}
+main{
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.learn .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+ }
+ 
+ .learn .box-container .box{
+    border-radius: .5rem;
+    background-color: var(--white);
+    padding: 2rem;
+    margin: 2rem;
+    border: 2px solid #333;
+ }
+ 
+ .learn .box-container .box .tutor{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+ }
+ 
+ .learn .box-container .box .tutor img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ 
+ .learn .box-container .box .tutor h3{
+    font-size: 1.8rem;
+    color: #2c3e50;    
+    margin-bottom: .2rem;
+ }
+ 
+ .learn .box-container .box .tutor span{
+    font-size: 1.3rem;
+    color: #888;
+ }
+ 
+ .learn .box-container .box .thumb{
+    position: relative;
+ }
+ 
+ .learn .box-container .box .thumb span{
+    position: absolute;
+    top:1rem; left: 1rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+    font-size: 1.5rem;
+ }
+ 
+ .learn .box-container .box .thumb img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: .5rem;
+ }
+ 
+ .learn .box-container .box .title{
+    font-size: 2rem;
+    color: black;
+    padding-bottom: .5rem;
+    padding-top: 1rem;
+ }
+ 
+ .learn .more-btn{
+    text-align: center;
+    margin-top: 2rem;
+ }
+
+.inline-btn{
+    display: inline-block;
+    border-radius: .5rem;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.inline-btn:hover{
+    background-color: #4292aa;
+}
