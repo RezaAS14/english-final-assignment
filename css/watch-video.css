@@ -30,6 +30,12 @@ header {
    text-transform: capitalize;
 }
 
+.title-header{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h1 {
     margin: 0;
     font-size: 28px;
