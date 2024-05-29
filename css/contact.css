@@ -62,8 +62,9 @@ nav {
 }
 
 .mx-auto {
-    margin-left: auto;
-    margin-right: auto;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
   }
   .radius-15 {
     border-radius: 15px;
